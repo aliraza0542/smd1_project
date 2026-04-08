@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNjA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550PaFtI0m/8VG92V4Jz92ILco/jXrd7ERfTlyuvancnYTX2iKaOI1qsblJhp/AoiGIwDugL05iKcpFF/vhSEM7R6z7Pt5l9Rg7r43grmjQPiQYbs6ki4dCcV0LmLLAq4QvCtKOafNSYbOK+UfrDamuqDB86r/MfL+72hRIL/EmresB21uyNyLLP7iUzSnloVFh/2dwEmE5+VZdHyj4gjF06XVZPC4PUSMCASMCASAwDQYJKoZIhvcNAQEEBQADggEBABbKmNRYgPMPHRx7pkFC9FW+6k75U/n6daDG5bJnsPrD/rD3r3GeFg9bMlbJhiKHN2Is+glhF7HqHMWvDm7F0jl1ZhWTafijE0YTTnCiaQI+ehJpZhMISKx3vYcfsuy3u4IjEupXNtfkGEmhl+MG9a7V8IepJDqaL+mPIGJOEepXLpfGGGpsfNqE1rEMYDiUFY0IAInNC8ggXpJf1iOsJhT28GRfGMfBC3CqyNkfMQddCIg+mPFNEp5YKz3li3WeO5aDfGCBSOCdCL8fflEwyUxCWY+FDKIrfO3M4a3D8CmVFhSJkhSpCgSEHMHPNmJqJPbW9YkUlD0YblIBIJSQA=
+        </item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14teleChfKR6MHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZIIJAMLgh0ZkSjCNMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBRDhGR/fQPEVRQottM/sBd92KM+CHhlAtm8fExiBC/0kOf2JqAlU+2TaB6IsqKP1t5Je6aJnni7575GYW6veE0/YcGsTpLPaclfyFA0teyGSm8Bvd/jf/VZDEZh0io6/TfL7wQ9sCcNbVIed1GSS/LnF1SFMCr3pOth7MaWv4OgTsxPWhm+YJgPLMurJFXQPGwV7TpBjpZKVGeU0hNFjHeFXiRPJkJQPiZ9KmE6lhOiLYO7aGPUB0J6bKLqtySqVMSP0rCbHpJ2IYMV6qFKOyzeyD7WC73RTXH/QKL5dCYtf3CYtf3CYtf3C
+        </item>
+    </string-array>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/manrope</item>
+        <item>@font/manrope_bold</item>
+        <item>@font/inter</item>
+        <item>@font/inter_medium</item>
+    </array>
+    <color name="background">#f3faff</color>
+    <color name="black">#000000</color>
+    <color name="error">#ba1a1a</color>
+    <color name="error_container">#ffdad6</color>
+    <color name="inverse_on_surface">#dff4ff</color>
+    <color name="inverse_primary">#bbc6e2</color>
+    <color name="inverse_surface">#1e333c</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="on_error_container">#93000a</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_primary_container">#828da7</color>
+    <color name="on_primary_fixed">#101b30</color>
+    <color name="on_primary_fixed_variant">#3c475d</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="on_secondary_container">#007165</color>
+    <color name="on_secondary_fixed">#00201c</color>
+    <color name="on_secondary_fixed_variant">#005048</color>
+    <color name="on_surface">#071e27</color>
+    <color name="on_surface_variant">#45474d</color>
+    <color name="on_tertiary">#FFFFFF</color>
+    <color name="on_tertiary_container">#f6582a</color>
+    <color name="on_tertiary_fixed">#3b0900</color>
+    <color name="on_tertiary_fixed_variant">#872000</color>
+    <color name="outline">#75777d</color>
+    <color name="outline_variant">#c5c6cd</color>
+    <color name="primary">#051125</color>
+    <color name="primary_container">#1b263b</color>
+    <color name="primary_fixed">#d7e2ff</color>
+    <color name="primary_fixed_dim">#bbc6e2</color>
+    <color name="secondary">#006b5f</color>
+    <color name="secondary_container">#8df5e4</color>
+    <color name="secondary_fixed">#8df5e4</color>
+    <color name="secondary_fixed_dim">#70d8c8</color>
+    <color name="surface">#f3faff</color>
+    <color name="surface_bright">#f3faff</color>
+    <color name="surface_container">#dbf1fe</color>
+    <color name="surface_container_high">#d5ecf8</color>
+    <color name="surface_container_highest">#cfe6f2</color>
+    <color name="surface_container_low">#e6f6ff</color>
+    <color name="surface_container_lowest">#FFFFFF</color>
+    <color name="surface_dim">#c7dde9</color>
+    <color name="surface_tint">#545e76</color>
+    <color name="surface_variant">#cfe6f2</color>
+    <color name="tertiary">#2a0500</color>
+    <color name="tertiary_container">#4e0f00</color>
+    <color name="tertiary_fixed">#ffdbd1</color>
+    <color name="tertiary_fixed_dim">#ffb5a0</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="badge_padding_horizontal">12dp</dimen>
+    <dimen name="badge_padding_vertical">4dp</dimen>
+    <dimen name="bottom_nav_height">80dp</dimen>
+    <dimen name="button_height">52dp</dimen>
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="card_elevation">0dp</dimen>
+    <dimen name="card_inner_radius">6dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="fab_elevation">8dp</dimen>
+    <dimen name="icon_container_size">40dp</dimen>
+    <dimen name="item_spacing">10dp</dimen>
+    <dimen name="pill_corner_radius">100dp</dimen>
+    <dimen name="screen_padding">16dp</dimen>
+    <dimen name="section_padding">20dp</dimen>
+    <dimen name="top_bar_height">64dp</dimen>
+    <string name="add">Add</string>
+    <string name="add_product">Add Product</string>
+    <string name="analytics">Analytics</string>
+    <string name="app_name">StockMaster</string>
+    <string name="back">Back</string>
+    <string name="confirm_sale">Confirm Sale</string>
+    <string name="credentials_hint">Admin: admin/admin123  •  Staff: staff/staff123</string>
+    <string name="delete_product">Delete Product</string>
+    <string name="edit">Edit</string>
+    <string name="generate_report">Generate Report</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_username">Username</string>
+    <string name="inventory">Inventory</string>
+    <string name="low_stock_alerts">Low Stock Alerts</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_inventory">Inventory</string>
+    <string name="nav_pos">POS</string>
+    <string name="new_sale">New Sale</string>
+    <string name="no_alerts">No Alerts</string>
+    <string name="no_products_found">No products found</string>
+    <string name="no_sales_yet">No sales yet</string>
+    <string name="notifications">Notifications</string>
+    <string name="point_of_sale">Point of Sale</string>
+    <string name="print_reports">Print Reports</string>
+    <string name="quantity">Quantity</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="recent_transactions">Recent Transactions</string>
+    <string name="record_new_transactions">Record new transactions</string>
+    <string name="record_sale_subtitle">Record a sales transaction</string>
+    <string name="report_placeholder">Select a date range and report type, then tap Generate to view your report.</string>
+    <string name="search_products">Search products…</string>
+    <string name="select_product">Select product</string>
+    <string name="share_report">Share Report</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_in_subtitle">Sign in to your account</string>
+    <string name="splash_subtitle">Smart Inventory Management</string>
+    <string name="stock_alerts">Stock Alerts</string>
+    <string name="todays_profit">Today\'s Profit</string>
+    <string name="todays_sales">Today\'s Sales</string>
+    <string name="total_items">Total Items</string>
+    <string name="total_sales">Total Sales</string>
+    <string name="transactions">Transactions</string>
+    <string name="view_all">View All</string>
+    <string name="view_list">View List</string>
+    <string name="welcome_back">Welcome Back</string>
+    <style name="ShapeAppearance.StockMaster.BottomSheet" parent="">
+        <item name="cornerSizeTopLeft">24dp</item>
+        <item name="cornerSizeTopRight">24dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+    <style name="Theme.StockMaster" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary_container</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryContainer">@color/secondary_container</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorOnSecondaryContainer">@color/on_secondary_container</item>
+        <item name="colorTertiary">@color/tertiary</item>
+        <item name="colorTertiaryContainer">@color/tertiary_container</item>
+        <item name="colorOnTertiary">@color/on_tertiary</item>
+        <item name="colorOnTertiaryContainer">@color/on_tertiary_container</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorErrorContainer">@color/error_container</item>
+        <item name="colorOnError">@color/on_error</item>
+        <item name="colorOnErrorContainer">@color/on_error_container</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorOutlineVariant">@color/outline_variant</item>
+        <item name="colorSurfaceInverse">@color/inverse_surface</item>
+        <item name="colorOnSurfaceInverse">@color/inverse_on_surface</item>
+        <item name="colorPrimaryInverse">@color/inverse_primary</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="Theme.StockMaster.BottomSheet" parent="Theme.Material3.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.StockMaster.BottomSheet</item>
+    </style>
+    <style name="Theme.StockMaster.NoActionBar" parent="Theme.StockMaster">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Widget.StockMaster.BottomNav.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/surface_container_low</item>
+    </style>
+    <style name="Widget.StockMaster.BottomSheet" parent="Widget.Material3.BottomSheet">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.StockMaster.BottomSheet</item>
+    </style>
+</resources>

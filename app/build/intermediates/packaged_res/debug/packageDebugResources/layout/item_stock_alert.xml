@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    app:cardBackgroundColor="@color/surface_container_lowest"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="0dp"
+    app:strokeWidth="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp">
+
+        <ImageView
+            android:id="@+id/iv_alert_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_alert_icon"
+            android:padding="8dp"
+            android:src="@android:drawable/ic_dialog_alert"
+            app:tint="@color/on_primary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_alert_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Product Name"
+            android:textColor="@color/on_surface"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/inter_medium"
+            app:layout_constraintEnd_toStartOf="@+id/tv_alert_stock_level"
+            app:layout_constraintStart_toEndOf="@+id/iv_alert_icon"
+            app:layout_constraintTop_toTopOf="@+id/iv_alert_icon" />
+
+        <TextView
+            android:id="@+id/tv_alert_subtitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="2dp"
+            android:text="Stock: 0 / Threshold: 0"
+            android:textColor="@color/outline"
+            android:textSize="11sp"
+            android:fontFamily="@font/inter"
+            app:layout_constraintEnd_toStartOf="@+id/tv_alert_stock_level"
+            app:layout_constraintStart_toEndOf="@+id/iv_alert_icon"
+            app:layout_constraintTop_toBottomOf="@+id/tv_alert_title" />
+
+        <TextView
+            android:id="@+id/tv_alert_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="2dp"
+            android:text="01 Jan 2024"
+            android:textColor="@color/outline"
+            android:textSize="10sp"
+            android:fontFamily="@font/inter"
+            app:layout_constraintEnd_toStartOf="@+id/tv_alert_stock_level"
+            app:layout_constraintStart_toEndOf="@+id/iv_alert_icon"
+            app:layout_constraintTop_toBottomOf="@+id/tv_alert_subtitle" />
+
+        <TextView
+            android:id="@+id/tv_alert_stock_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_badge_warning"
+            android:text="0 left"
+            android:textColor="@color/on_tertiary_fixed"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/inter_medium"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/surface_container_lowest"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_sale"
+        android:textColor="@color/on_surface"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/manrope_bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/record_sale_subtitle"
+        android:textColor="@color/outline"
+        android:textSize="13sp"
+        android:fontFamily="@font/inter" />
+
+    <!-- Product Selector -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_product_select"
+        style="@style/Widget.Material3.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/select_product"
+        app:boxBackgroundColor="@color/surface_container_highest"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:boxCornerRadiusTopStart="12dp"
+        app:boxCornerRadiusTopEnd="12dp"
+        app:boxCornerRadiusBottomStart="12dp"
+        app:boxCornerRadiusBottomEnd="12dp"
+        app:hintTextColor="@color/outline">
+
+        <AutoCompleteTextView
+            android:id="@+id/act_product_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter"
+            android:inputType="none"
+            android:textColor="@color/on_surface"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Quantity -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_quantity"
+        style="@style/Widget.Material3.TextInputLayout.FilledBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/quantity"
+        app:boxBackgroundColor="@color/surface_container_highest"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:boxCornerRadiusTopStart="12dp"
+        app:boxCornerRadiusTopEnd="12dp"
+        app:boxCornerRadiusBottomStart="12dp"
+        app:boxCornerRadiusBottomEnd="12dp"
+        app:hintTextColor="@color/outline">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter"
+            android:inputType="number"
+            android:textColor="@color/on_surface"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Profit Preview Card -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_profit_preview"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_unit_profit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit Profit: Rs. 0"
+            android:textColor="@color/on_surface"
+            android:textSize="13sp"
+            android:fontFamily="@font/inter" />
+
+        <TextView
+            android:id="@+id/tv_total_revenue_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Total Revenue: Rs. 0"
+            android:textColor="@color/on_surface"
+            android:textSize="13sp"
+            android:fontFamily="@font/inter" />
+
+        <TextView
+            android:id="@+id/tv_total_profit_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Total Profit: Rs. 0"
+            android:textColor="@color/on_surface"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/inter_medium" />
+
+        <TextView
+            android:id="@+id/tv_margin_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_badge_success"
+            android:text="Good"
+            android:textColor="@color/secondary"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/inter_medium" />
+    </LinearLayout>
+
+    <!-- Confirm Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_confirm_sale"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_button_primary"
+        android:text="@string/confirm_sale"
+        android:textAllCaps="false"
+        android:textColor="@color/on_primary"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/inter_medium"
+        app:backgroundTint="@null"
+        app:cornerRadius="100dp" />
+
+</LinearLayout>

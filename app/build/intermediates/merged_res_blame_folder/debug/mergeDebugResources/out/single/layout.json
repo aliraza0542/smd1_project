@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.stockmaster.app-mergeDebugResources-3:/layout/activity_main.xml",
+        "source": "com.stockmaster.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-mergeDebugResources-3:/layout/item_product.xml",
+        "source": "com.stockmaster.app-main-6:/layout/item_product.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-mergeDebugResources-3:/layout/fragment_dashboard.xml",
+        "source": "com.stockmaster.app-main-6:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-mergeDebugResources-3:/layout/activity_login.xml",
+        "source": "com.stockmaster.app-main-6:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-mergeDebugResources-3:/layout/activity_add_edit_product.xml",
+        "source": "com.stockmaster.app-main-6:/layout/activity_add_edit_product.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-mergeDebugResources-3:/layout/dialog_add_sale.xml",
+        "source": "com.stockmaster.app-main-6:/layout/dialog_add_sale.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-mergeDebugResources-3:/layout/activity_sale_detail.xml",
+        "source": "com.stockmaster.app-main-6:/layout/activity_sale_detail.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-mergeDebugResources-3:/layout/fragment_analytics.xml",
+        "source": "com.stockmaster.app-main-6:/layout/fragment_analytics.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-mergeDebugResources-3:/layout/item_sale.xml",
+        "source": "com.stockmaster.app-main-6:/layout/item_sale.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-mergeDebugResources-3:/layout/activity_alerts.xml",
+        "source": "com.stockmaster.app-main-6:/layout/activity_alerts.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-mergeDebugResources-3:/layout/fragment_inventory.xml",
+        "source": "com.stockmaster.app-main-6:/layout/fragment_inventory.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-mergeDebugResources-3:/layout/fragment_sales.xml",
+        "source": "com.stockmaster.app-main-6:/layout/fragment_sales.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-mergeDebugResources-3:/layout/activity_splash.xml",
+        "source": "com.stockmaster.app-main-6:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-mergeDebugResources-3:/layout/item_stock_alert.xml",
+        "source": "com.stockmaster.app-main-6:/layout/item_stock_alert.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-mergeDebugResources-3:/layout/activity_product_detail.xml",
+        "source": "com.stockmaster.app-main-6:/layout/activity_product_detail.xml"
+    }
+]

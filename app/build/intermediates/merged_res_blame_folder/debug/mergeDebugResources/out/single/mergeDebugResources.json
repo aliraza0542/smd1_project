@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "com.stockmaster.app-debug-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.stockmaster.app-main-6:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/font_manrope_bold.xml.flat",
+        "source": "com.stockmaster.app-main-6:/font/manrope_bold.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/layout_fragment_analytics.xml.flat",
+        "source": "com.stockmaster.app-main-6:/layout/fragment_analytics.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/font_manrope.xml.flat",
+        "source": "com.stockmaster.app-main-6:/font/manrope.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/font_inter_medium.xml.flat",
+        "source": "com.stockmaster.app-main-6:/font/inter_medium.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/drawable_bg_detail_hero.xml.flat",
+        "source": "com.stockmaster.app-main-6:/drawable/bg_detail_hero.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/xml_backup_rules.xml.flat",
+        "source": "com.stockmaster.app-main-6:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/drawable_bg_login_card.xml.flat",
+        "source": "com.stockmaster.app-main-6:/drawable/bg_login_card.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/layout_activity_add_edit_product.xml.flat",
+        "source": "com.stockmaster.app-main-6:/layout/activity_add_edit_product.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/drawable_bg_icon_container.xml.flat",
+        "source": "com.stockmaster.app-main-6:/drawable/bg_icon_container.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/drawable_bg_button_tertiary.xml.flat",
+        "source": "com.stockmaster.app-main-6:/drawable/bg_button_tertiary.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/layout_dialog_add_sale.xml.flat",
+        "source": "com.stockmaster.app-main-6:/layout/dialog_add_sale.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.stockmaster.app-main-6:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/drawable_bg_badge_warning.xml.flat",
+        "source": "com.stockmaster.app-main-6:/drawable/bg_badge_warning.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/drawable_bg_hero_gradient.xml.flat",
+        "source": "com.stockmaster.app-main-6:/drawable/bg_hero_gradient.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/layout_item_product.xml.flat",
+        "source": "com.stockmaster.app-main-6:/layout/item_product.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/drawable_bg_bottom_nav.xml.flat",
+        "source": "com.stockmaster.app-main-6:/drawable/bg_bottom_nav.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/layout_fragment_inventory.xml.flat",
+        "source": "com.stockmaster.app-main-6:/layout/fragment_inventory.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/layout_activity_splash.xml.flat",
+        "source": "com.stockmaster.app-main-6:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/drawable_bg_button_primary.xml.flat",
+        "source": "com.stockmaster.app-main-6:/drawable/bg_button_primary.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/xml_data_extraction_rules.xml.flat",
+        "source": "com.stockmaster.app-main-6:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/drawable_bg_card_white.xml.flat",
+        "source": "com.stockmaster.app-main-6:/drawable/bg_card_white.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/drawable_bg_fab_gradient.xml.flat",
+        "source": "com.stockmaster.app-main-6:/drawable/bg_fab_gradient.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/layout_item_stock_alert.xml.flat",
+        "source": "com.stockmaster.app-main-6:/layout/item_stock_alert.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/layout_fragment_sales.xml.flat",
+        "source": "com.stockmaster.app-main-6:/layout/fragment_sales.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/layout_activity_alerts.xml.flat",
+        "source": "com.stockmaster.app-main-6:/layout/activity_alerts.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/layout_activity_main.xml.flat",
+        "source": "com.stockmaster.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/layout_activity_login.xml.flat",
+        "source": "com.stockmaster.app-main-6:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/drawable_bg_login_top.xml.flat",
+        "source": "com.stockmaster.app-main-6:/drawable/bg_login_top.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/drawable_bg_category_badge.xml.flat",
+        "source": "com.stockmaster.app-main-6:/drawable/bg_category_badge.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/drawable_bg_badge_success.xml.flat",
+        "source": "com.stockmaster.app-main-6:/drawable/bg_badge_success.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/drawable_bg_section_container.xml.flat",
+        "source": "com.stockmaster.app-main-6:/drawable/bg_section_container.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/drawable_bg_alert_icon.xml.flat",
+        "source": "com.stockmaster.app-main-6:/drawable/bg_alert_icon.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/font_inter.xml.flat",
+        "source": "com.stockmaster.app-main-6:/font/inter.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.stockmaster.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/layout_fragment_dashboard.xml.flat",
+        "source": "com.stockmaster.app-main-6:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/layout_activity_product_detail.xml.flat",
+        "source": "com.stockmaster.app-main-6:/layout/activity_product_detail.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/layout_item_sale.xml.flat",
+        "source": "com.stockmaster.app-main-6:/layout/item_sale.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/drawable_bg_badge_error.xml.flat",
+        "source": "com.stockmaster.app-main-6:/drawable/bg_badge_error.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/drawable_bg_profit_preview.xml.flat",
+        "source": "com.stockmaster.app-main-6:/drawable/bg_profit_preview.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.stockmaster.app-main-6:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/color_chip_bg_color.xml.flat",
+        "source": "com.stockmaster.app-main-6:/color/chip_bg_color.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/color_bottom_nav_color.xml.flat",
+        "source": "com.stockmaster.app-main-6:/color/bottom_nav_color.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.stockmaster.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.stockmaster.app-debug-4:/layout_activity_sale_detail.xml.flat",
+        "source": "com.stockmaster.app-main-6:/layout/activity_sale_detail.xml"
+    }
+]

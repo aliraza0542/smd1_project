@@ -1,0 +1,398 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:1:1-60:12
+INJECTED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:1:1-60:12
+INJECTED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:1:1-60:12
+INJECTED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:1:1-60:12
+MERGED from [androidx.databinding:viewbinding:9.1.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/6fb31bc0ddf1c458f436a02d603a30be/transformed/viewbinding-9.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.11.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/fb928ed28d35e6775491d1a6f1f36f06/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/c163e9c0d140d09446d16bb94fa56fc8/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/7ee3c0a837f7c2d6d33541f37f532270/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/61642d7ccc85a31f99763a90522c97fe/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/43967808ee235e63c6b012f03d1235bd/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.6.2] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/6923ec15177e22f08aedf3583a872128/transformed/fragment-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/14b53d977572faf5f6e42d8c3b190e37/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/f62748db380053eb8e66309050c203b9/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/27f1962b0ef9d845e3bd766413b41f99/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/99227792f6b93aa6fa7e0ae99074b656/transformed/activity-ktx-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/bb3ed990438df87f42fc3ba471f1161a/transformed/activity-1.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/2bb73b123641587bd6ba1b2fc324013c/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/40fcc1f6cc6d406fa623a295a633f4b9/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/2b3eb253eeda8bb755863ad5c42bd843/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/0b98b6db9ab1f3057368371a8bee2dfc/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/8677d23f27a2f3d611eac085cc29826d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/87ce157896f2a6ef19f3cb0fe3de6fa2/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/1784084f30141f61b91694097636c9ae/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/38e796f05d58f8bbcb012f36a7864458/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/944cee0d9817cb2bff9e057561dd98ed/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/1f5a695bc1b6a7321d4d6fada295d111/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/2a9e362f158c80a0105b8031ffc6c2e1/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.12.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/3343ba3f565651f23c2f34e2007c2137/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/6f257a37894c98051796904a4335989e/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/b0efb0ff4c58fe7ce37d29035c7434e4/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/0a208aacd1a7af4f8e7f73ec1fb512de/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/fe868c4aae3dbb97b354e0d8336513eb/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/a82f173f3c7d4fd3c99d0decb0c0fd4a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/a978ff05363aca38fab93c446a018b05/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/16640461a43ee7206cd61e4277b66cfa/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/6086c69b57007c51b08080519e3f5870/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/d0b4889367aad3645c1afaa113f11e29/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/7b9dac0f0ceaf0a95c341ce9b85f6f98/transformed/lifecycle-livedata-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/acc1048c4b948226901ced4ef198919c/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/c5e938cdff567d0d8b073e48974e110c/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.12.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/8b42fd2ad9c268fcf0660399aa8514bf/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime-android:2.7.0-alpha11] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/5ec8ee0ff498173c2d4fd2846be3d394/transformed/room-runtime-release/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.7.0-alpha11] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/cc1b4b99caa8b1cb0c54e3c843875a97/transformed/room-ktx-2.7.0-alpha11/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/2e69d1d90aca22a95af88572c21d886d/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/66cb8d575581ade16c150bbdee538f96/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/dc7643ed15f5a55a092bbcb986a1af4f/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/ddd193a17c80fb1a4cfcd1b21ccdc56c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/9d761e40e7593fd1d04000e34f36286a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/e2e39e3763ab6bf83d63312e530c3997/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/8d19be16fb2044d78e8745164db3624f/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/48ff11fb8ae1166c9c0d7f01e27c01e5/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/c22c66fadb105e58792b9a8ad64b109a/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/0c99d05b9f319150330dd61f4e63a598/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/f507af4bb3d19809b00f0f300dfae95e/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework-android:2.5.0-alpha11] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/5b43c5785759595db2a16838508a5271/transformed/sqlite-framework/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-android:2.5.0-alpha11] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/dd2ea6397f09a12efe2e4c6ba79836f2/transformed/sqlite/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:4:5-58:19
+INJECTED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:4:5-58:19
+MERGED from [com.google.android.material:material:1.11.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/fb928ed28d35e6775491d1a6f1f36f06/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/fb928ed28d35e6775491d1a6f1f36f06/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/c163e9c0d140d09446d16bb94fa56fc8/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/c163e9c0d140d09446d16bb94fa56fc8/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/27f1962b0ef9d845e3bd766413b41f99/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/27f1962b0ef9d845e3bd766413b41f99/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/3343ba3f565651f23c2f34e2007c2137/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/3343ba3f565651f23c2f34e2007c2137/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/a82f173f3c7d4fd3c99d0decb0c0fd4a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/a82f173f3c7d4fd3c99d0decb0c0fd4a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.room:room-runtime-android:2.7.0-alpha11] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/5ec8ee0ff498173c2d4fd2846be3d394/transformed/room-runtime-release/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime-android:2.7.0-alpha11] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/5ec8ee0ff498173c2d4fd2846be3d394/transformed/room-runtime-release/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/9d761e40e7593fd1d04000e34f36286a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/9d761e40e7593fd1d04000e34f36286a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/e2e39e3763ab6bf83d63312e530c3997/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/e2e39e3763ab6bf83d63312e530c3997/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/3343ba3f565651f23c2f34e2007c2137/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:9:9-41
+	android:fullBackupContent
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:7:9-54
+	android:roundIcon
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:10:9-54
+	tools:targetApi
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:13:9-29
+	android:icon
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:5:9-35
+	android:theme
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:12:9-49
+	android:dataExtractionRules
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:6:9-65
+activity#com.stockmaster.activities.SplashActivity
+ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:15:9-23:20
+	android:exported
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:17:13-36
+	android:theme
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:18:13-65
+	android:name
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:16:13-54
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:19:13-22:29
+action#android.intent.action.MAIN
+ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:21:27-74
+activity#com.stockmaster.activities.LoginActivity
+ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:25:9-28:68
+	android:exported
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:27:13-37
+	android:theme
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:28:13-65
+	android:name
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:26:13-53
+activity#com.stockmaster.activities.MainActivity
+ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:30:9-33:68
+	android:exported
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:32:13-37
+	android:theme
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:33:13-65
+	android:name
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:31:13-52
+activity#com.stockmaster.activities.ProductDetailActivity
+ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:35:9-38:68
+	android:exported
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:37:13-37
+	android:theme
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:38:13-65
+	android:name
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:36:13-61
+activity#com.stockmaster.activities.AddEditProductActivity
+ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:40:9-43:68
+	android:exported
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:42:13-37
+	android:theme
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:43:13-65
+	android:name
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:41:13-62
+activity#com.stockmaster.activities.SaleDetailActivity
+ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:45:9-48:68
+	android:exported
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:47:13-37
+	android:theme
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:48:13-65
+	android:name
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:46:13-58
+activity#com.stockmaster.activities.AlertsActivity
+ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:50:9-53:68
+	android:exported
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:52:13-37
+	android:theme
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:53:13-65
+	android:name
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:51:13-54
+meta-data#preloaded_fonts
+ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:55:9-57:57
+	android:resource
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:57:13-54
+	android:name
+		ADDED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml:56:13-43
+uses-sdk
+INJECTED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml
+INJECTED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:9.1.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/6fb31bc0ddf1c458f436a02d603a30be/transformed/viewbinding-9.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:9.1.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/6fb31bc0ddf1c458f436a02d603a30be/transformed/viewbinding-9.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.11.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/fb928ed28d35e6775491d1a6f1f36f06/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/fb928ed28d35e6775491d1a6f1f36f06/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/c163e9c0d140d09446d16bb94fa56fc8/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/c163e9c0d140d09446d16bb94fa56fc8/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/7ee3c0a837f7c2d6d33541f37f532270/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/7ee3c0a837f7c2d6d33541f37f532270/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/61642d7ccc85a31f99763a90522c97fe/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/61642d7ccc85a31f99763a90522c97fe/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/43967808ee235e63c6b012f03d1235bd/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/43967808ee235e63c6b012f03d1235bd/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.6.2] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/6923ec15177e22f08aedf3583a872128/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/6923ec15177e22f08aedf3583a872128/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/14b53d977572faf5f6e42d8c3b190e37/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/14b53d977572faf5f6e42d8c3b190e37/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/f62748db380053eb8e66309050c203b9/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/f62748db380053eb8e66309050c203b9/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/27f1962b0ef9d845e3bd766413b41f99/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/27f1962b0ef9d845e3bd766413b41f99/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/99227792f6b93aa6fa7e0ae99074b656/transformed/activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/99227792f6b93aa6fa7e0ae99074b656/transformed/activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/bb3ed990438df87f42fc3ba471f1161a/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/bb3ed990438df87f42fc3ba471f1161a/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/2bb73b123641587bd6ba1b2fc324013c/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/2bb73b123641587bd6ba1b2fc324013c/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/40fcc1f6cc6d406fa623a295a633f4b9/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/40fcc1f6cc6d406fa623a295a633f4b9/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/2b3eb253eeda8bb755863ad5c42bd843/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/2b3eb253eeda8bb755863ad5c42bd843/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/0b98b6db9ab1f3057368371a8bee2dfc/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/0b98b6db9ab1f3057368371a8bee2dfc/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/8677d23f27a2f3d611eac085cc29826d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/8677d23f27a2f3d611eac085cc29826d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/87ce157896f2a6ef19f3cb0fe3de6fa2/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/87ce157896f2a6ef19f3cb0fe3de6fa2/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/1784084f30141f61b91694097636c9ae/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/1784084f30141f61b91694097636c9ae/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/38e796f05d58f8bbcb012f36a7864458/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/38e796f05d58f8bbcb012f36a7864458/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/944cee0d9817cb2bff9e057561dd98ed/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/944cee0d9817cb2bff9e057561dd98ed/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/1f5a695bc1b6a7321d4d6fada295d111/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/1f5a695bc1b6a7321d4d6fada295d111/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/2a9e362f158c80a0105b8031ffc6c2e1/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/2a9e362f158c80a0105b8031ffc6c2e1/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/3343ba3f565651f23c2f34e2007c2137/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/3343ba3f565651f23c2f34e2007c2137/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/6f257a37894c98051796904a4335989e/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/6f257a37894c98051796904a4335989e/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/b0efb0ff4c58fe7ce37d29035c7434e4/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/b0efb0ff4c58fe7ce37d29035c7434e4/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/0a208aacd1a7af4f8e7f73ec1fb512de/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/0a208aacd1a7af4f8e7f73ec1fb512de/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/fe868c4aae3dbb97b354e0d8336513eb/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/fe868c4aae3dbb97b354e0d8336513eb/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/a82f173f3c7d4fd3c99d0decb0c0fd4a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/a82f173f3c7d4fd3c99d0decb0c0fd4a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/a978ff05363aca38fab93c446a018b05/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/a978ff05363aca38fab93c446a018b05/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/16640461a43ee7206cd61e4277b66cfa/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/16640461a43ee7206cd61e4277b66cfa/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/6086c69b57007c51b08080519e3f5870/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/6086c69b57007c51b08080519e3f5870/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/d0b4889367aad3645c1afaa113f11e29/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/d0b4889367aad3645c1afaa113f11e29/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/7b9dac0f0ceaf0a95c341ce9b85f6f98/transformed/lifecycle-livedata-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/7b9dac0f0ceaf0a95c341ce9b85f6f98/transformed/lifecycle-livedata-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/acc1048c4b948226901ced4ef198919c/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/acc1048c4b948226901ced4ef198919c/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/c5e938cdff567d0d8b073e48974e110c/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/c5e938cdff567d0d8b073e48974e110c/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/8b42fd2ad9c268fcf0660399aa8514bf/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/8b42fd2ad9c268fcf0660399aa8514bf/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime-android:2.7.0-alpha11] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/5ec8ee0ff498173c2d4fd2846be3d394/transformed/room-runtime-release/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime-android:2.7.0-alpha11] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/5ec8ee0ff498173c2d4fd2846be3d394/transformed/room-runtime-release/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.7.0-alpha11] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/cc1b4b99caa8b1cb0c54e3c843875a97/transformed/room-ktx-2.7.0-alpha11/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.7.0-alpha11] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/cc1b4b99caa8b1cb0c54e3c843875a97/transformed/room-ktx-2.7.0-alpha11/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/2e69d1d90aca22a95af88572c21d886d/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/2e69d1d90aca22a95af88572c21d886d/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/66cb8d575581ade16c150bbdee538f96/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/66cb8d575581ade16c150bbdee538f96/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/dc7643ed15f5a55a092bbcb986a1af4f/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/dc7643ed15f5a55a092bbcb986a1af4f/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/ddd193a17c80fb1a4cfcd1b21ccdc56c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/ddd193a17c80fb1a4cfcd1b21ccdc56c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/9d761e40e7593fd1d04000e34f36286a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/9d761e40e7593fd1d04000e34f36286a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/e2e39e3763ab6bf83d63312e530c3997/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/e2e39e3763ab6bf83d63312e530c3997/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/8d19be16fb2044d78e8745164db3624f/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/8d19be16fb2044d78e8745164db3624f/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/48ff11fb8ae1166c9c0d7f01e27c01e5/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/48ff11fb8ae1166c9c0d7f01e27c01e5/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/c22c66fadb105e58792b9a8ad64b109a/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/c22c66fadb105e58792b9a8ad64b109a/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/0c99d05b9f319150330dd61f4e63a598/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/0c99d05b9f319150330dd61f4e63a598/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/f507af4bb3d19809b00f0f300dfae95e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/f507af4bb3d19809b00f0f300dfae95e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework-android:2.5.0-alpha11] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/5b43c5785759595db2a16838508a5271/transformed/sqlite-framework/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework-android:2.5.0-alpha11] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/5b43c5785759595db2a16838508a5271/transformed/sqlite-framework/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-android:2.5.0-alpha11] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/dd2ea6397f09a12efe2e4c6ba79836f2/transformed/sqlite/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-android:2.5.0-alpha11] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/dd2ea6397f09a12efe2e4c6ba79836f2/transformed/sqlite/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/yasir-ali/code/smartInventory/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/27f1962b0ef9d845e3bd766413b41f99/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/a82f173f3c7d4fd3c99d0decb0c0fd4a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/a82f173f3c7d4fd3c99d0decb0c0fd4a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/e2e39e3763ab6bf83d63312e530c3997/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/e2e39e3763ab6bf83d63312e530c3997/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/27f1962b0ef9d845e3bd766413b41f99/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/27f1962b0ef9d845e3bd766413b41f99/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/27f1962b0ef9d845e3bd766413b41f99/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/27f1962b0ef9d845e3bd766413b41f99/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/27f1962b0ef9d845e3bd766413b41f99/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/27f1962b0ef9d845e3bd766413b41f99/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/27f1962b0ef9d845e3bd766413b41f99/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/3343ba3f565651f23c2f34e2007c2137/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/3343ba3f565651f23c2f34e2007c2137/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/3343ba3f565651f23c2f34e2007c2137/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.stockmaster.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/3343ba3f565651f23c2f34e2007c2137/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/3343ba3f565651f23c2f34e2007c2137/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/3343ba3f565651f23c2f34e2007c2137/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/3343ba3f565651f23c2f34e2007c2137/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/3343ba3f565651f23c2f34e2007c2137/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.stockmaster.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/3343ba3f565651f23c2f34e2007c2137/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/3343ba3f565651f23c2f34e2007c2137/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/a82f173f3c7d4fd3c99d0decb0c0fd4a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/a82f173f3c7d4fd3c99d0decb0c0fd4a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/a82f173f3c7d4fd3c99d0decb0c0fd4a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime-android:2.7.0-alpha11] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/5ec8ee0ff498173c2d4fd2846be3d394/transformed/room-runtime-release/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime-android:2.7.0-alpha11] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/5ec8ee0ff498173c2d4fd2846be3d394/transformed/room-runtime-release/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime-android:2.7.0-alpha11] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/5ec8ee0ff498173c2d4fd2846be3d394/transformed/room-runtime-release/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime-android:2.7.0-alpha11] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/5ec8ee0ff498173c2d4fd2846be3d394/transformed/room-runtime-release/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime-android:2.7.0-alpha11] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/5ec8ee0ff498173c2d4fd2846be3d394/transformed/room-runtime-release/AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/yasir-ali/code/smartInventory/caches/9.3.1/transforms/95ec6b935ffe464d21056662dc107666/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
