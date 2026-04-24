@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Performance Insights"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Visualizing growth and operations"
+            android:textColor="@color/colorTextSecondary"
+            android:textSize="13sp" />
+
+        <!-- L9 — RadioGroup: Daily/Weekly/Monthly toggle -->
+        <RadioGroup
+            android:id="@+id/rg_period"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_card"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <RadioButton
+                android:id="@+id/rb_daily"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:background="@drawable/bg_chip_active"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="Daily"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/rb_weekly"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:background="@null"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="Weekly"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/rb_monthly"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:background="@null"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="Monthly"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="12sp" />
+
+        </RadioGroup>
+
+        <!-- Revenue Trajectory Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Revenue Trajectory"
+                    android:textColor="@color/colorTextSecondary"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_revenue_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$42,890.00"
+                        android:textColor="@color/colorTextPrimary"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/bg_badge_ok"
+                        android:paddingStart="8dp"
+                        android:paddingEnd="8dp"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="4dp"
+                        android:text="+12.4%"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Net sales over the current period"
+                    android:textColor="@color/colorTextSecondary"
+                    android:textSize="11sp" />
+
+                <!-- Bar chart placeholder (hardcoded shapes) -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="16dp"
+                    android:gravity="bottom"
+                    android:orientation="horizontal"
+                    android:weightSum="7">
+
+                    <View android:layout_width="0dp" android:layout_height="40dp" android:layout_weight="1" android:layout_marginStart="2dp" android:layout_marginEnd="2dp" android:background="@drawable/bg_bar_inactive" />
+                    <View android:layout_width="0dp" android:layout_height="55dp" android:layout_weight="1" android:layout_marginStart="2dp" android:layout_marginEnd="2dp" android:background="@drawable/bg_bar_inactive" />
+                    <View android:layout_width="0dp" android:layout_height="70dp" android:layout_weight="1" android:layout_marginStart="2dp" android:layout_marginEnd="2dp" android:background="@drawable/bg_bar_inactive" />
+                    <View android:layout_width="0dp" android:layout_height="100dp" android:layout_weight="1" android:layout_marginStart="2dp" android:layout_marginEnd="2dp" android:background="@drawable/bg_bar_active" />
+                    <View android:layout_width="0dp" android:layout_height="65dp" android:layout_weight="1" android:layout_marginStart="2dp" android:layout_marginEnd="2dp" android:background="@drawable/bg_bar_inactive" />
+                    <View android:layout_width="0dp" android:layout_height="50dp" android:layout_weight="1" android:layout_marginStart="2dp" android:layout_marginEnd="2dp" android:background="@drawable/bg_bar_inactive" />
+                    <View android:layout_width="0dp" android:layout_height="45dp" android:layout_weight="1" android:layout_marginStart="2dp" android:layout_marginEnd="2dp" android:background="@drawable/bg_bar_inactive" />
+
+                </LinearLayout>
+
+                <!-- Day labels -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="7">
+
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="MON" android:textColor="@color/colorTextSecondary" android:textSize="11sp" />
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="TUE" android:textColor="@color/colorTextSecondary" android:textSize="11sp" />
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="WED" android:textColor="@color/colorTextSecondary" android:textSize="11sp" />
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="THU" android:textColor="@color/colorTextPrimary" android:textSize="11sp" android:textStyle="bold" />
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="FRI" android:textColor="@color/colorTextSecondary" android:textSize="11sp" />
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="SAT" android:textColor="@color/colorTextSecondary" android:textSize="11sp" />
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="SUN" android:textColor="@color/colorTextSecondary" android:textSize="11sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Category Mix Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Category Mix"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- L10 — ConstraintLayout Flow for category tags -->
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.constraintlayout.helper.widget.Flow
+                        android:id="@+id/flow_categories"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:constraint_referenced_ids="tag_electronics,tag_apparel,tag_homedecor,tag_wearables,tag_furniture"
+                        app:flow_horizontalGap="8dp"
+                        app:flow_verticalGap="8dp"
+                        app:flow_wrapMode="chain"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tag_electronics"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:background="@drawable/bg_chip_active"
+                        android:gravity="center"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:text="Electronics 45%"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tag_apparel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:background="@drawable/bg_chip_inactive"
+                        android:gravity="center"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:text="Apparel 30%"
+                        android:textColor="@color/colorTextSecondary"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tag_homedecor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:background="@drawable/bg_chip_inactive"
+                        android:gravity="center"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:text="Home Decor 25%"
+                        android:textColor="@color/colorTextSecondary"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tag_wearables"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:background="@drawable/bg_chip_inactive"
+                        android:gravity="center"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:text="Wearables"
+                        android:textColor="@color/colorTextSecondary"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tag_furniture"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:background="@drawable/bg_chip_inactive"
+                        android:gravity="center"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:text="Furniture"
+                        android:textColor="@color/colorTextSecondary"
+                        android:textSize="12sp" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- L7 — TableLayout with stretchColumns for Financial Statement -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Financial Statement"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- L7 — TableLayout with stretchColumns="0" -->
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="0">
+
+                    <!-- Header row -->
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorStatBlue"
+                        android:padding="8dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TRANSACTION STREAM"
+                            android:textColor="@color/colorTextSecondary"
+                            android:textSize="11sp"
+                            android:padding="8dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="FORECAST"
+                            android:textColor="@color/colorTextSecondary"
+                            android:textSize="11sp"
+                            android:padding="8dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ACTUAL"
+                            android:textColor="@color/colorTextSecondary"
+                            android:textSize="11sp"
+                            android:padding="8dp" />
+                    </TableRow>
+
+                    <!-- Row 1 -->
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:padding="8dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Gross Operating Revenue"
+                                android:textColor="@color/colorTextPrimary"
+                                android:textSize="13sp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Primary sales channels"
+                                android:textColor="@color/colorTextSecondary"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$45,000"
+                            android:textColor="@color/colorTextSecondary"
+                            android:textSize="13sp"
+                            android:padding="8dp"
+                            android:gravity="center_vertical" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$42,890"
+                            android:textColor="@color/colorTextPrimary"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:padding="8dp"
+                            android:gravity="center_vertical" />
+                    </TableRow>
+
+                    <!-- Row 2 -->
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:padding="8dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Cost of Goods Sold (COGS)"
+                                android:textColor="@color/colorTextPrimary"
+                                android:textSize="13sp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Wholesale &amp; Logistics"
+                                android:textColor="@color/colorTextSecondary"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$18,000"
+                            android:textColor="@color/colorTextSecondary"
+                            android:textSize="13sp"
+                            android:padding="8dp"
+                            android:gravity="center_vertical" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$16,200"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:padding="8dp"
+                            android:gravity="center_vertical" />
+                    </TableRow>
+
+                    <!-- Row 3 -->
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:padding="8dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Operating Expenses"
+                                android:textColor="@color/colorTextPrimary"
+                                android:textSize="13sp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Marketing &amp; Utilities"
+                                android:textColor="@color/colorTextSecondary"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$8,500"
+                            android:textColor="@color/colorTextSecondary"
+                            android:textSize="13sp"
+                            android:padding="8dp"
+                            android:gravity="center_vertical" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$7,900"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:padding="8dp"
+                            android:gravity="center_vertical" />
+                    </TableRow>
+
+                    <!-- Row 4 -->
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Net Profit Margin"
+                            android:textColor="@color/colorTextPrimary"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:padding="8dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$18,500"
+                            android:textColor="@color/colorTextSecondary"
+                            android:textSize="13sp"
+                            android:padding="8dp"
+                            android:gravity="center_vertical" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$18,790"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:padding="8dp"
+                            android:gravity="center_vertical" />
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Bottom KPI Cards Grid -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:useDefaultMargins="true">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="4dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                app:cardCornerRadius="12dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="12dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ACTIVE ORDERS" android:textColor="#BDBDBD" android:textSize="11sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="842" android:textColor="@color/white" android:textSize="22sp" android:textStyle="bold" android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="4dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                app:cardCornerRadius="12dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="12dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="STOCK TURNOVER" android:textColor="#BDBDBD" android:textSize="11sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="14.2x" android:textColor="@color/white" android:textSize="22sp" android:textStyle="bold" android:layout_marginTop="4dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Optimal Velocity" android:textColor="#BDBDBD" android:textSize="11sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="4dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                app:cardCornerRadius="12dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="12dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AVG. ORDER VALUE" android:textColor="#BDBDBD" android:textSize="11sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$215" android:textColor="@color/white" android:textSize="22sp" android:textStyle="bold" android:layout_marginTop="4dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-2% vs LY" android:textColor="#FF5252" android:textSize="11sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="4dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                app:cardCornerRadius="12dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="12dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CUSTOMER LTV" android:textColor="#BDBDBD" android:textSize="11sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$1.8k" android:textColor="@color/white" android:textSize="22sp" android:textStyle="bold" android:layout_marginTop="4dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="92% Loyalty" android:textColor="#BDBDBD" android:textSize="11sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>

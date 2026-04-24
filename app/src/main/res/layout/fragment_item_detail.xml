@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- F2 — Fragment that receives product data via Bundle -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Back button -->
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_chip_inactive"
+            android:text="← Back"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="13sp" />
+
+        <!-- Product card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <!-- Product image placeholder -->
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="12dp"
+                    android:background="@color/colorStatBlue" />
+
+                <!-- Product name -->
+                <TextView
+                    android:id="@+id/tv_detail_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Product Name"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+                <!-- Status badge -->
+                <TextView
+                    android:id="@+id/tv_detail_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/bg_badge_ok"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
+                    android:text="IN STOCK"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <!-- Detail rows -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="12dp" android:paddingBottom="12dp">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Category" android:textColor="@color/colorTextSecondary" android:textSize="14sp" />
+                    <TextView android:id="@+id/tv_detail_category" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="—" android:textColor="@color/colorTextPrimary" android:textSize="14sp" android:textStyle="bold" />
+                </LinearLayout>
+
+                <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/colorBorder" />
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="12dp" android:paddingBottom="12dp">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Price" android:textColor="@color/colorTextSecondary" android:textSize="14sp" />
+                    <TextView android:id="@+id/tv_detail_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$0.00" android:textColor="@color/colorTextPrimary" android:textSize="14sp" android:textStyle="bold" />
+                </LinearLayout>
+
+                <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/colorBorder" />
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="12dp" android:paddingBottom="12dp">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Stock Level" android:textColor="@color/colorTextSecondary" android:textSize="14sp" />
+                    <TextView android:id="@+id/tv_detail_stock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0 units" android:textColor="@color/colorTextPrimary" android:textSize="14sp" android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Add to Cart Button -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/bg_btn_primary"
+            android:text="Add to Cart"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

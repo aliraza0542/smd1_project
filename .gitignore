@@ -1,0 +1,19 @@
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Generated artifacts / logs
+captures/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+

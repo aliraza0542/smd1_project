@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- L4 — RelativeLayout with layout_toRightOf + layout_below + layout_alignParentEnd -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <!-- L8 — HorizontalScrollView for filter chips row -->
+    <HorizontalScrollView
+        android:id="@+id/filter_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/iv_filter_icon"
+        android:layout_alignParentStart="true"
+        android:scrollbars="none"
+        android:paddingStart="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/chip_all"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/bg_chip_active"
+                android:gravity="center"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="@string/filter_all"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/chip_low_stock"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/bg_chip_inactive"
+                android:gravity="center"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="@string/filter_low_stock"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/chip_electronics"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/bg_chip_inactive"
+                android:gravity="center"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="@string/filter_electronics"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/bg_chip_inactive"
+                android:gravity="center"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="Furniture"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/bg_chip_inactive"
+                android:gravity="center"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="Wearables"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- L4 — Icon aligned to parent end (layout_alignParentEnd) -->
+    <ImageView
+        android:id="@+id/iv_filter_icon"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_search"
+        android:contentDescription="Filter icon"
+        android:padding="6dp" />
+
+</RelativeLayout>

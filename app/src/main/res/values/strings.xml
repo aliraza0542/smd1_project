@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StockMaster</string>
+    <string name="splash_tagline">Intelligent Inventory Management</string>
+
+    <!-- Nav labels -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_inventory">Inventory</string>
+    <string name="nav_pos">POS</string>
+    <string name="nav_analytics">Analytics</string>
+
+    <!-- Inventory -->
+    <string name="search_hint">Search products…</string>
+    <string name="filter_all">All Items</string>
+    <string name="filter_low_stock">Low Stock</string>
+    <string name="filter_electronics">Electronics</string>
+    <string name="filter_furniture">Furniture</string>
+    <string name="filter_wearables">Wearables</string>
+
+    <!-- POS -->
+    <string name="btn_draft">Draft</string>
+    <string name="btn_pay">Pay</string>
+    <string name="btn_complete_sale">COMPLETE SALE</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ic_avatar.xml — LayerList oval shape -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#1A1A2E" />
+        </shape>
+    </item>
+    <item
+        android:top="8dp"
+        android:bottom="8dp"
+        android:left="8dp"
+        android:right="8dp">
+        <shape android:shape="oval">
+            <solid android:color="#2A2A4E" />
+        </shape>
+    </item>
+</layer-list>

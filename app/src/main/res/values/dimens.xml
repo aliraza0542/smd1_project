@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="screen_padding">16dp</dimen>
+    <dimen name="item_spacing">10dp</dimen>
+    <dimen name="topbar_height">56dp</dimen>
+    <dimen name="bottom_nav_height">64dp</dimen>
+    <dimen name="chip_height">36dp</dimen>
+    <dimen name="stat_card_height">90dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

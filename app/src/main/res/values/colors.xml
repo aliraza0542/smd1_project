@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand palette -->
+    <color name="colorPrimaryDark">#1A1A2E</color>
+    <color name="colorAccent">#00BFA5</color>
+    <color name="colorBackground">#EBF4FB</color>
+
+    <!-- Stat card tints -->
+    <color name="colorStatBlue">#E8F4FD</color>
+    <color name="colorStatRed">#FFF0ED</color>
+    <color name="colorStatGreen">#E8F9F6</color>
+
+    <!-- Text -->
+    <color name="colorTextPrimary">#1A1A2E</color>
+    <color name="colorTextSecondary">#78909C</color>
+
+    <!-- Utility -->
+    <color name="colorWarning">#FF7043</color>
+    <color name="colorError">#FF5252</color>
+    <color name="colorBorder">#D4E8F5</color>
+
+    <!-- Basic -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>
