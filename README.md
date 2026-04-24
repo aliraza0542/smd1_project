@@ -1,5 +1,20 @@
 # StockMaster — Android Studio Project
 
+
+##  Features
+- Inventory management with search and filter functionality  
+- Sales analytics with Daily, Weekly, and Monthly views  
+- POS system with cart and live total calculation  
+- Smooth navigation using fragments and tab layout  
+- Clean UI using modern Android layout patterns  
+
+---
+
+## ⚙️ Requirements
+- Android Studio (latest version recommended)  
+- Minimum SDK: API 24+  
+- Android device or emulator  
+
 ## How to Open
 
 1. Extract `StockMaster.zip`
