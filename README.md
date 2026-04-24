@@ -1,60 +1,163 @@
-# StockMaster — Android Studio Project
+# 🚀 StockMaster — Android Inventory Management App
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Android-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Language-Kotlin-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Min%20SDK-24-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Architecture-Fragment--Based-purple?style=for-the-badge">
+</p>
 
-##  Features
-- Inventory management with search and filter functionality  
-- Sales analytics with Daily, Weekly, and Monthly views  
-- POS system with cart and live total calculation  
-- Smooth navigation using fragments and tab layout  
-- Clean UI using modern Android layout patterns  
+<p align="center">
+  <b style="color:#00BFA5; font-size:18px;">
+    Smart • Fast • Modern Inventory Solution
+  </b>
+</p>
+
+---
+
+## 👨‍💻 Team Members
+<table>
+<tr>
+<td align="center">🟢 <b>Ali Raza</b></td>
+<td align="center">🔵 <b>Yasir Ali</b></td>
+<td align="center">🟣 <b>Naeem ul Rehman</b></td>
+</tr>
+</table>
+
+---
+
+## 📱 Project Overview
+StockMaster is a **modern Android inventory management application** developed using **Kotlin**.  
+It is designed to manage stock, track sales, and provide quick analytics with an intuitive UI.
+
+🔹 Focus: Clean UI + Efficient Data Handling  
+🔹 Approach: Modular Fragment-based Architecture  
+
+---
+
+## ✨ Key Features
+
+### 📦 Inventory Module
+- Real-time product search 🔍  
+- Category-based filtering  
+- RecyclerView with optimized performance  
+
+### 📊 Analytics Module
+- Daily / Weekly / Monthly insights  
+- Data displayed using TableLayout  
+- Interactive UI using RadioGroup  
+
+### 🛒 POS (Point of Sale)
+- Add/remove items from cart  
+- Live total price calculation  
+- Quantity management system  
+
+### 🔍 Product Detail
+- Parcelable data transfer  
+- Clean detail UI with structured layout  
+
+---
+
+## 🧠 Technical Highlights
+- Fragment Transactions for navigation  
+- RecyclerView + ViewHolder pattern  
+- Intent & Bundle data passing  
+- Parcelable data model  
+- Modular and scalable structure  
+
+---
+
+## 🧱 Project Architecture
+
+| Layer | Description |
+|------|------------|
+| UI Layer | Activities + Fragments |
+| Adapter Layer | RecyclerView Adapter |
+| Data Layer | Product Model (Parcelable) |
+| Navigation | Fragment Transactions |
+
+---
+
+## 📂 File Structure
+
+| File | Description |
+|------|------------|
+| `SplashActivity.kt` | App entry & navigation start |
+| `MainActivity.kt` | Controls tabs and fragments |
+| `InventoryFragment.kt` | Displays product list |
+| `AnalyticsFragment.kt` | Handles analytics UI |
+| `POSFragment.kt` | Shopping cart logic |
+| `ItemDetailFragment.kt` | Product detail screen |
+| `InventoryAdapter.kt` | Adapter for list rendering |
+| `Product.kt` | Data model |
+
+---
+
+## 🎨 UI / Layout Design
+
+| Tag | Layout Type | Usage |
+|-----|------------|------|
+| L1 | CoordinatorLayout | Collapsing toolbar |
+| L2 | ConstraintLayout | Item card design |
+| L3 | LinearLayout | Bottom navigation |
+| L4 | RelativeLayout | Filter section |
+| L5 | FrameLayout | Notification badge |
+| L6 | GridLayout | Stats display |
+| L7 | TableLayout | Analytics |
+| L8 | HorizontalScrollView | Filter chips |
+| L9 | RadioGroup | Period selection |
+| L10 | Constraint Flow | Tag wrapping |
+
+---
+
+## 🎨 App Theme
+
+| Element | Color |
+|--------|------|
+| Primary Dark | `#1A1A2E` |
+| Accent | `#00BFA5` |
+| Background | `#EBF4FB` |
+| Warning | `#FF7043` |
+| Error | `#FF5252` |
 
 ---
 
 ## ⚙️ Requirements
-- Android Studio (latest version recommended)  
+- Android Studio (Latest Version)  
 - Minimum SDK: API 24+  
-- Android device or emulator  
+- Emulator or Physical Device  
 
-## How to Open
+---
 
-1. Extract `StockMaster.zip`
-2. Open **Android Studio**
-3. Select **File → Open** and choose the extracted `StockMaster/` folder
-4. Let Android Studio sync the Gradle files (first sync downloads dependencies)
-5. Click **Run ▶** to build and deploy to a device or emulator (API 24+)
+## 🛠️ Installation Guide
+1. Extract project files  
+2. Open Android Studio  
+3. Click **File → Open**  
+4. Select project folder  
+5. Wait for Gradle sync  
+6. Click **Run ▶**
 
-## Architecture
+---
 
-| File | Purpose |
-|---|---|
-| `SplashActivity.kt` | Entry point; passes user data via `Intent Extras` to `MainActivity` |
-| `MainActivity.kt` | Hosts 4-tab navigation; performs `Fragment Transactions` |
-| `InventoryFragment.kt` | `RecyclerView` + real-time search/filter (F3, F5) |
-| `AnalyticsFragment.kt` | `RadioGroup` period toggle (L9) + `TableLayout` (L7) |
-| `POSFragment.kt` | Cart quantity controls + live price totals |
-| `ItemDetailFragment.kt` | Receives `Product` via `Bundle` argument (F2) |
-| `InventoryAdapter.kt` | Custom `RecyclerView.Adapter` + `ViewHolder` (F3) |
-| `Product.kt` | `Parcelable` data model with sample data |
+## 🔮 Future Improvements
+- Firebase integration 🔥  
+- User authentication system  
+- Cloud database support  
+- Dark mode 🌙  
+- Barcode scanner integration  
 
-## Layout Patterns Covered
+---
 
-| Tag | Layout | Where Used |
-|---|---|---|
-| L1 | CoordinatorLayout + CollapsingToolbarLayout | `fragment_inventory.xml` |
-| L2 | ConstraintLayout + Barrier + Guideline + Chain | `item_inventory_card.xml` |
-| L3 | LinearLayout with `layout_weight="1"` | `layout_bottom_nav.xml` |
-| L4 | RelativeLayout with `layout_toRightOf`, `layout_alignParentEnd` | `layout_filter_row.xml` |
-| L5 | FrameLayout (notification badge overlay) | `layout_topbar.xml` |
-| L6 | GridLayout 2×2 | `layout_stats_grid.xml` |
-| L7 | TableLayout with `stretchColumns` | `fragment_analytics.xml` |
-| L8 | HorizontalScrollView for chips | `layout_filter_row.xml` |
-| L9 | RadioGroup (Daily/Weekly/Monthly) | `fragment_analytics.xml` |
-| L10 | ConstraintLayout Flow for tag wrapping | `fragment_analytics.xml` |
+## 📌 Learning Outcomes
+- Practical use of Android layouts  
+- Fragment-based app development  
+- RecyclerView optimization  
+- UI/UX design principles  
 
-## Colors
+---
 
-- `colorPrimaryDark` = `#1A1A2E`
-- `colorAccent` = `#00BFA5`
-- `colorBackground` = `#EBF4FB`
-- `colorWarning` = `#FF7043`
-- `colorError` = `#FF5252`
+<p align="center">
+  <b style="color:#00BFA5;">
+     Built with dedication by Team StockMaster 
+  </b>
+</p>
