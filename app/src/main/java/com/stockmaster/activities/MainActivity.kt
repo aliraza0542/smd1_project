@@ -7,6 +7,7 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.stockmaster.R
 import com.stockmaster.fragments.AnalyticsFragment
+import com.stockmaster.fragments.BrowseCatalogFragment
 import com.stockmaster.fragments.InventoryFragment
 import com.stockmaster.fragments.POSFragment
 
@@ -44,6 +45,7 @@ class MainActivity : AppCompatActivity() {
         val navInventory = findViewById<android.widget.LinearLayout>(R.id.nav_inventory)
         val navPos = findViewById<android.widget.LinearLayout>(R.id.nav_pos)
         val navAnalytics = findViewById<android.widget.LinearLayout>(R.id.nav_analytics)
+        val navCatalog = findViewById<android.widget.LinearLayout>(R.id.nav_catalog)
 
         navDashboard.setOnClickListener {
             val current = supportFragmentManager.findFragmentById(R.id.fragment_container)
@@ -65,6 +67,7 @@ class MainActivity : AppCompatActivity() {
         }
         navPos.setOnClickListener { loadFragment(POSFragment(), 2) }
         navAnalytics.setOnClickListener { loadFragment(AnalyticsFragment(), 3) }
+        navCatalog.setOnClickListener { loadFragment(BrowseCatalogFragment(), 4) }
 
         updateNavHighlight(activeNavIndex)
     }
@@ -83,13 +86,15 @@ class MainActivity : AppCompatActivity() {
             R.id.nav_dashboard,
             R.id.nav_inventory,
             R.id.nav_pos,
-            R.id.nav_analytics
+            R.id.nav_analytics,
+            R.id.nav_catalog
         )
         val navLabelIds = listOf(
             R.id.nav_dashboard_label,
             R.id.nav_inventory_label,
             R.id.nav_pos_label,
-            R.id.nav_analytics_label
+            R.id.nav_analytics_label,
+            R.id.nav_catalog_label
         )
 
         navIds.forEachIndexed { i, id ->
@@ -113,7 +118,7 @@ class MainActivity : AppCompatActivity() {
     // F4 — InventoryFragment calls this while scrolling to keep Dashboard/Inventory nav state in sync.
     fun updateHomeNavHighlight(index: Int) {
         if (index !in 0..1) return
-        if (activeNavIndex == 2 || activeNavIndex == 3) return
+        if (activeNavIndex >= 2) return
         activeNavIndex = index
         updateNavHighlight(index)
     }

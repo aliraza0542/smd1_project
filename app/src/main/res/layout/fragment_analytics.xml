@@ -143,6 +143,52 @@
                     android:textColor="@color/colorTextSecondary"
                     android:textSize="11sp" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Units Sold"
+                        android:textColor="@color/colorTextSecondary"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_units_sold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@color/colorTextPrimary"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Top Category"
+                        android:textColor="@color/colorTextSecondary"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_top_category"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-"
+                        android:textColor="@color/colorTextPrimary"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
                 <!-- Bar chart placeholder (hardcoded shapes) -->
                 <LinearLayout
                     android:layout_width="match_parent"

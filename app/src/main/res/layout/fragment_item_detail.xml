@@ -20,7 +20,7 @@
             android:layout_height="36dp"
             android:layout_marginBottom="16dp"
             android:background="@drawable/bg_chip_inactive"
-            android:text="← Back"
+            android:text="@string/back"
             android:textColor="@color/colorTextPrimary"
             android:textSize="13sp" />
 
@@ -45,7 +45,7 @@
                     android:layout_height="80dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginBottom="12dp"
-                    android:background="@color/colorStatBlue" />
+                    android:background="@drawable/bg_product_placeholder" />
 
                 <!-- Product name -->
                 <TextView
@@ -53,7 +53,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Product Name"
+                    android:text="@string/product_name_placeholder"
                     android:textColor="@color/colorTextPrimary"
                     android:textSize="20sp"
                     android:textStyle="bold"
@@ -71,39 +71,53 @@
                     android:paddingEnd="12dp"
                     android:paddingTop="6dp"
                     android:paddingBottom="6dp"
-                    android:text="IN STOCK"
+                    android:text="@string/status_in_stock"
                     android:textSize="13sp"
                     android:textStyle="bold" />
 
+                <TextView
+                    android:id="@+id/tv_detail_sku"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/sku_placeholder"
+                    android:textColor="@color/colorTextSecondary" />
+
                 <!-- Detail rows -->
                 <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="12dp" android:paddingBottom="12dp">
-                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Category" android:textColor="@color/colorTextSecondary" android:textSize="14sp" />
-                    <TextView android:id="@+id/tv_detail_category" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="—" android:textColor="@color/colorTextPrimary" android:textSize="14sp" android:textStyle="bold" />
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/label_category" android:textColor="@color/colorTextSecondary" android:textSize="14sp" />
+                    <TextView android:id="@+id/tv_detail_category" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/not_available" android:textColor="@color/colorTextPrimary" android:textSize="14sp" android:textStyle="bold" />
                 </LinearLayout>
-
-                <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/colorBorder" />
 
                 <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="12dp" android:paddingBottom="12dp">
-                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Price" android:textColor="@color/colorTextSecondary" android:textSize="14sp" />
-                    <TextView android:id="@+id/tv_detail_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$0.00" android:textColor="@color/colorTextPrimary" android:textSize="14sp" android:textStyle="bold" />
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/label_price" android:textColor="@color/colorTextSecondary" android:textSize="14sp" />
+                    <TextView android:id="@+id/tv_detail_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/price_placeholder" android:textColor="@color/colorTextPrimary" android:textSize="14sp" android:textStyle="bold" />
                 </LinearLayout>
-
-                <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/colorBorder" />
 
                 <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="12dp" android:paddingBottom="12dp">
-                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Stock Level" android:textColor="@color/colorTextSecondary" android:textSize="14sp" />
-                    <TextView android:id="@+id/tv_detail_stock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0 units" android:textColor="@color/colorTextPrimary" android:textSize="14sp" android:textStyle="bold" />
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/label_stock_level" android:textColor="@color/colorTextSecondary" android:textSize="14sp" />
+                    <TextView android:id="@+id/tv_detail_stock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stock_units_placeholder" android:textColor="@color/colorTextPrimary" android:textSize="14sp" android:textStyle="bold" />
                 </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_detail_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/colorTextSecondary"
+                    android:textSize="13sp" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- Add to Cart Button -->
+        <!-- Record sale button -->
         <Button
+            android:id="@+id/btn_record_sale"
             android:layout_width="match_parent"
             android:layout_height="52dp"
             android:background="@drawable/bg_btn_primary"
-            android:text="Add to Cart"
+            android:text="@string/record_sale"
             android:textColor="@color/white"
             android:textSize="16sp"
             android:textStyle="bold" />

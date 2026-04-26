@@ -1,45 +1,55 @@
-# StockMaster — Android Studio Project
+# StockMaster (StitchSmart Assignment Project)
 
-## How to Open
+StockMaster is an Android app for retail/textile inventory management built with Kotlin + XML.
+It demonstrates Assignment 3 UI/navigation requirements and Assignment 4 data requirements (SQLite CRUD + REST catalog).
 
-1. Extract `StockMaster.zip`
-2. Open **Android Studio**
-3. Select **File → Open** and choose the extracted `StockMaster/` folder
-4. Let Android Studio sync the Gradle files (first sync downloads dependencies)
-5. Click **Run ▶** to build and deploy to a device or emulator (API 24+)
+## Open and Run
 
-## Architecture
+1. Open the project folder in Android Studio.
+2. Allow Gradle sync to download dependencies.
+3. Run on emulator/device (API 24+).
 
-| File | Purpose |
-|---|---|
-| `SplashActivity.kt` | Entry point; passes user data via `Intent Extras` to `MainActivity` |
-| `MainActivity.kt` | Hosts 4-tab navigation; performs `Fragment Transactions` |
-| `InventoryFragment.kt` | `RecyclerView` + real-time search/filter (F3, F5) |
-| `AnalyticsFragment.kt` | `RadioGroup` period toggle (L9) + `TableLayout` (L7) |
-| `POSFragment.kt` | Cart quantity controls + live price totals |
-| `ItemDetailFragment.kt` | Receives `Product` via `Bundle` argument (F2) |
-| `InventoryAdapter.kt` | Custom `RecyclerView.Adapter` + `ViewHolder` (F3) |
-| `Product.kt` | `Parcelable` data model with sample data |
+> Note: In this workspace, `gradlew.bat` currently fails from terminal. Android Studio sync/run is the reliable workflow.
 
-## Layout Patterns Covered
+## Project Structure
 
-| Tag | Layout | Where Used |
-|---|---|---|
-| L1 | CoordinatorLayout + CollapsingToolbarLayout | `fragment_inventory.xml` |
-| L2 | ConstraintLayout + Barrier + Guideline + Chain | `item_inventory_card.xml` |
-| L3 | LinearLayout with `layout_weight="1"` | `layout_bottom_nav.xml` |
-| L4 | RelativeLayout with `layout_toRightOf`, `layout_alignParentEnd` | `layout_filter_row.xml` |
-| L5 | FrameLayout (notification badge overlay) | `layout_topbar.xml` |
-| L6 | GridLayout 2×2 | `layout_stats_grid.xml` |
-| L7 | TableLayout with `stretchColumns` | `fragment_analytics.xml` |
-| L8 | HorizontalScrollView for chips | `layout_filter_row.xml` |
-| L9 | RadioGroup (Daily/Weekly/Monthly) | `fragment_analytics.xml` |
-| L10 | ConstraintLayout Flow for tag wrapping | `fragment_analytics.xml` |
+```text
+app/src/main/java/com/stockmaster/
+  activities/         SplashActivity, MainActivity
+  fragments/          Inventory, ItemDetail, POS, Analytics, BrowseCatalog, AddEditProduct
+  adapters/           InventoryAdapter, CatalogAdapter
+  models/             Product, Sale, CatalogProduct, SalesSummary
+  database/           DatabaseHelper
+	dao/              ProductDao, SaleDao
+  network/            ApiClient, ApiService
+  repository/         ProductRepository
+  utils/              FormatUtils
+```
 
-## Colors
+## Feature Map
 
-- `colorPrimaryDark` = `#1A1A2E`
-- `colorAccent` = `#00BFA5`
-- `colorBackground` = `#EBF4FB`
-- `colorWarning` = `#FF7043`
-- `colorError` = `#FF5252`
+- `SplashActivity` -> `MainActivity` uses `Intent` extras (`USER_NAME`, `USER_ROLE`, etc.).
+- `MainActivity` hosts bottom-nav fragment transactions for Dashboard/Inventory, POS, Analytics, Catalog.
+- `InventoryFragment` provides SQLite-backed product list with search, status filters, sorting, add/edit, swipe delete (undo), and product detail routing.
+- `ItemDetailFragment` receives a `Product` via Bundle (`"product"`) and records sales.
+- `BrowseCatalogFragment` fetches global catalog from `https://dummyjson.com/products` via Retrofit and supports local import.
+- `AnalyticsFragment` reads SQLite sales totals and renders KPIs.
+
+## Data Layer
+
+- Local source: `SQLiteOpenHelper` (`DatabaseHelper`) with `products` and `sales` tables (FK `sales.product_id` -> `products.id`).
+- Remote source: Retrofit (`ApiClient` + `ApiService`) for catalog browsing.
+- Repository: `ProductRepository` keeps local inventory and API catalog flows separated.
+
+## Design System Notes
+
+- Primary: `#051125` (`colorPrimaryDark`), Accent: `#006B5F` (`colorAccent`), text primary `#071E27`.
+- Cards and list rows use background tiers (`surface_low`, `surface_lowest`) with no divider lines.
+- Status visuals use `bg_badge_ok`, `bg_badge_low`, `bg_badge_critical`.
+
+## Contributing
+
+1. Keep feature markers (`F1`-`F5`) and layout markers (`L1`-`L10`) intact in edited files.
+2. Preserve literal keys used for navigation/data passing (`"product"`, `"open_inventory_section"`, `"USER_NAME"`, etc.).
+3. If adding navigation tabs, update both `layout_bottom_nav.xml` and `MainActivity.kt` highlight logic.
+4. Prefer updating existing drawables/colors/resources instead of introducing one-off styles.

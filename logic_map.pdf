@@ -1,0 +1,52 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1171 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+(# Logic Map) Tj
+0 -14 Td
+(| Requirement ID | Class / File | Function / Method | Description |) Tj
+0 -14 Td
+(|---|---|---|---|) Tj
+0 -14 Td
+(| F1 \(API\) | BrowseCatalogFragment.kt | loadCatalogFromApi\(\) | Calls Retrofit-backed repository method in coroutine scope and updates catalog RecyclerView, loading, empty, and error states. |) Tj
+0 -14 Td
+(| F2 \(Schema\) | DatabaseHelper.kt | onCreate\(\) | Creates products and sales tables with foreign key constraint and seeds 8 textile inventory records. |) Tj
+0 -14 Td
+(| F3 \(CRUD\) | ProductDao.kt | insertProduct\(\), updateProduct\(\), deleteProduct\(\) | Full product CRUD using SQLite and withContext\(Dispatchers.IO\) for background thread execution. |) Tj
+0 -14 Td
+(| F4 \(Strategy\) | ProductRepository.kt | getLocalProducts\(\), getApiProducts\(\) | Keeps SQLite local inventory and REST catalog as separate data sources in one repository boundary. |) Tj
+0 -14 Td
+(| F5 \(SQL\) | ProductDao.kt | searchProducts\(\), filterByStatus\(\), sortByStockAscending\(\) | Dynamic SQL \(LIKE, WHERE, ORDER BY\) for search/filter/sort flows in inventory list. |) Tj
+0 -14 Td
+ET
+
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001464 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1534
+%%EOF

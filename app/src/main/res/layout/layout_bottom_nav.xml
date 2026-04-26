@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- L3 — LinearLayout with layout_weight="1" — 4 nav items equally weighted -->
+<!-- L3 — LinearLayout with layout_weight="1" — nav items equally weighted -->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -104,6 +104,31 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
             android:text="@string/nav_analytics"
+            android:textColor="@color/colorTextSecondary"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nav_catalog"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:contentDescription="@string/nav_catalog"
+            android:src="@drawable/ic_search" />
+
+        <TextView
+            android:id="@+id/nav_catalog_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/nav_catalog"
             android:textColor="@color/colorTextSecondary"
             android:textSize="10sp" />
     </LinearLayout>

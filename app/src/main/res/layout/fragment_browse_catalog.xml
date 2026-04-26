@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface_lowest">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_catalog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp" />
+
+    <ProgressBar
+        android:id="@+id/catalog_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminateTint="@color/colorAccent" />
+
+    <LinearLayout
+        android:id="@+id/catalog_empty_state"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/catalog_empty"
+            android:textColor="@color/colorTextSecondary"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/catalog_error_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:background="@drawable/bg_surface_low"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_catalog_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/catalog_error"
+            android:textColor="@color/colorTextPrimary"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_retry_catalog"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_btn_secondary"
+            android:text="@string/retry"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</FrameLayout>
+

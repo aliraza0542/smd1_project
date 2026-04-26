@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Brand palette -->
-    <color name="colorPrimaryDark">#1A1A2E</color>
-    <color name="colorAccent">#00BFA5</color>
-    <color name="colorBackground">#EBF4FB</color>
+    <color name="colorPrimaryDark">#051125</color>
+    <color name="colorAccent">#006B5F</color>
+    <color name="colorBackground">#F3FAFF</color>
+    <color name="surface_low">#E6F6FF</color>
+    <color name="surface_lowest">#DBF1FE</color>
 
     <!-- Stat card tints -->
     <color name="colorStatBlue">#E8F4FD</color>
@@ -11,7 +13,7 @@
     <color name="colorStatGreen">#E8F9F6</color>
 
     <!-- Text -->
-    <color name="colorTextPrimary">#1A1A2E</color>
+    <color name="colorTextPrimary">#071E27</color>
     <color name="colorTextSecondary">#78909C</color>
 
     <!-- Utility -->
@@ -21,5 +23,5 @@
 
     <!-- Basic -->
     <color name="white">#FFFFFF</color>
-    <color name="black">#000000</color>
+    <color name="black">#071E27</color>
 </resources>

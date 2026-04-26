@@ -8,8 +8,8 @@
     android:layout_height="wrap_content"
     android:layout_marginStart="16dp"
     android:layout_marginEnd="16dp"
-    android:layout_marginBottom="10dp"
-    android:background="@drawable/bg_card"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/bg_surface_low"
     android:padding="12dp">
 
     <!-- Product thumbnail placeholder -->
@@ -17,7 +17,7 @@
         android:id="@+id/iv_product_thumb"
         android:layout_width="56dp"
         android:layout_height="56dp"
-        android:background="@color/colorStatBlue"
+        android:background="@drawable/bg_product_placeholder"
         android:layout_marginEnd="12dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

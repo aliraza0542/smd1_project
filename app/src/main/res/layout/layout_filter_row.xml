@@ -37,6 +37,19 @@
                 android:textSize="13sp" />
 
             <TextView
+                android:id="@+id/chip_in_stock"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/bg_chip_inactive"
+                android:gravity="center"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="@string/filter_in_stock"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="13sp" />
+
+            <TextView
                 android:id="@+id/chip_low_stock"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
@@ -50,7 +63,7 @@
                 android:textSize="13sp" />
 
             <TextView
-                android:id="@+id/chip_electronics"
+                android:id="@+id/chip_critical"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
                 android:layout_marginEnd="8dp"
@@ -58,31 +71,7 @@
                 android:gravity="center"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
-                android:text="@string/filter_electronics"
-                android:textColor="@color/colorTextSecondary"
-                android:textSize="13sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="36dp"
-                android:layout_marginEnd="8dp"
-                android:background="@drawable/bg_chip_inactive"
-                android:gravity="center"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:text="Furniture"
-                android:textColor="@color/colorTextSecondary"
-                android:textSize="13sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="36dp"
-                android:layout_marginEnd="16dp"
-                android:background="@drawable/bg_chip_inactive"
-                android:gravity="center"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:text="Wearables"
+                android:text="@string/filter_critical"
                 android:textColor="@color/colorTextSecondary"
                 android:textSize="13sp" />
 
@@ -98,7 +87,7 @@
         android:layout_centerVertical="true"
         android:layout_marginEnd="16dp"
         android:src="@drawable/ic_search"
-        android:contentDescription="Filter icon"
+        android:contentDescription="@string/filter_icon"
         android:padding="6dp" />
 
 </RelativeLayout>

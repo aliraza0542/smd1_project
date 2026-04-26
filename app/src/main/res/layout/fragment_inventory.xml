@@ -57,7 +57,7 @@
                         android:layout_height="16dp"
                         android:src="@drawable/ic_search"
                         android:layout_marginEnd="10dp"
-                        android:contentDescription="Search" />
+                        android:contentDescription="@string/search" />
 
                     <EditText
                         android:id="@+id/et_search"
@@ -69,6 +69,7 @@
                         android:textColor="@color/colorTextPrimary"
                         android:textSize="15sp"
                         android:inputType="text"
+                        android:importantForAutofill="no"
                         android:imeOptions="actionSearch"
                         android:singleLine="true" />
                 </LinearLayout>
@@ -86,6 +87,61 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
+                <LinearLayout
+                    android:id="@+id/low_stock_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/bg_badge_low"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="12dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tv_low_stock_banner"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorWarning"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/view"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="@drawable/bg_surface_low"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/top_products"
+                        android:textColor="@color/colorTextPrimary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_top_products"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:textColor="@color/colorTextSecondary"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
             </LinearLayout>
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>
@@ -98,16 +154,32 @@
         android:orientation="vertical"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
             android:layout_marginBottom="8dp"
-            android:text="Recent Inventory"
-            android:textColor="@color/colorTextPrimary"
-            android:textSize="17sp"
-            android:textStyle="bold" />
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/recent_inventory"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner_sort"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:background="@drawable/bg_chip_inactive"
+                android:entries="@array/inventory_sort_options" />
+        </LinearLayout>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_inventory"
@@ -115,6 +187,25 @@
             android:layout_height="match_parent"
             android:clipToPadding="false"
             android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tv_inventory_empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:text="@string/inventory_empty"
+            android:textColor="@color/colorAccent"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/inventory_progress"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:indeterminateTint="@color/colorAccent"
+            android:visibility="gone" />
 
     </LinearLayout>
 
@@ -126,7 +217,7 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
         android:src="@drawable/ic_plus"
-        android:contentDescription="Add item"
+        android:contentDescription="@string/add_item"
         app:backgroundTint="@color/colorPrimaryDark"
         app:tint="@color/white" />
 

@@ -8,11 +8,14 @@
     <string name="nav_inventory">Inventory</string>
     <string name="nav_pos">POS</string>
     <string name="nav_analytics">Analytics</string>
+    <string name="nav_catalog">Catalog</string>
 
     <!-- Inventory -->
     <string name="search_hint">Search products…</string>
     <string name="filter_all">All Items</string>
     <string name="filter_low_stock">Low Stock</string>
+    <string name="filter_in_stock">In Stock</string>
+    <string name="filter_critical">Critical</string>
     <string name="filter_electronics">Electronics</string>
     <string name="filter_furniture">Furniture</string>
     <string name="filter_wearables">Wearables</string>
@@ -22,4 +25,59 @@
     <string name="btn_draft_saved">Saved as Draft</string>
     <string name="btn_pay">Pay</string>
     <string name="btn_complete_sale">COMPLETE SALE</string>
+
+    <string name="welcome_user">Welcome, %1$s</string>
+    <string name="inventory_empty">No products found. Tap + to add one.</string>
+    <string name="catalog_error">Failed to load catalog. Check your network and retry.</string>
+    <string name="catalog_empty">No catalog products found.</string>
+    <string name="retry">Retry</string>
+    <string name="import_inventory_title">Add to My Inventory</string>
+    <string name="import_inventory_cta">Add</string>
+    <string name="import_inventory_success">Product imported to inventory</string>
+    <string name="product_form_validation">Please fill all required fields correctly.</string>
+    <string name="product_form_save_failed">Unable to save product.</string>
+    <string name="product_deleted">Product removed</string>
+    <string name="undo">Undo</string>
+    <string name="update_product">Update</string>
+    <string name="record_sale">Record Sale</string>
+    <string name="record_sale_quantity_hint">Quantity sold</string>
+    <string name="record_sale_validation">Enter a valid quantity.</string>
+    <string name="record_sale_success">Sale recorded.</string>
+    <string name="record_sale_failed">Unable to record sale.</string>
+    <string name="no_sales_summary">No sales recorded yet.</string>
+    <string name="not_available">N/A</string>
+    <string name="view">View</string>
+    <string name="top_products">Top Products</string>
+    <string name="recent_inventory">Recent Inventory</string>
+    <string name="add_item">Add item</string>
+    <string name="search">Search</string>
+    <string name="filter_icon">Filter icon</string>
+    <string name="back">Back</string>
+    <string name="label_category">Category</string>
+    <string name="label_price">Price</string>
+    <string name="label_stock_level">Stock Level</string>
+    <string name="add_edit_product_title">Add / Edit Product</string>
+    <string name="label_name">Name</string>
+    <string name="label_sku">SKU</string>
+    <string name="label_description">Description</string>
+    <string name="save">Save</string>
+    <string name="label_stock_count">Stock Count</string>
+    <string name="product_name_placeholder">Product Name</string>
+    <string name="status_in_stock">IN STOCK</string>
+    <string name="sku_placeholder">SKU</string>
+    <string name="price_placeholder">$0.00</string>
+    <string name="stock_units_placeholder">0 units</string>
+
+    <plurals name="low_stock_banner">
+        <item quantity="one">%d product is critically low</item>
+        <item quantity="other">%d products are critically low</item>
+    </plurals>
+
+    <string-array name="inventory_sort_options">
+        <item>Name A-Z</item>
+        <item>Stock Asc</item>
+        <item>Stock Desc</item>
+        <item>Price Asc</item>
+        <item>Price Desc</item>
+    </string-array>
 </resources>
