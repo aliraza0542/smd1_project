@@ -73,7 +73,10 @@ class POSFragment : Fragment() {
     }
 
     private fun setupActionButtons(view: View) {
-        view.findViewById<Button>(R.id.btn_draft)?.setOnClickListener {
+        val btnDraft = view.findViewById<Button>(R.id.btn_draft)
+
+        btnDraft?.setOnClickListener {
+            btnDraft.text = getString(R.string.btn_draft_saved)
             Toast.makeText(requireContext(), "Order saved as draft", Toast.LENGTH_SHORT).show()
         }
         view.findViewById<Button>(R.id.btn_pay)?.setOnClickListener {

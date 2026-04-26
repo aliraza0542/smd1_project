@@ -1,8 +1,9 @@
 package com.stockmaster.activities
 
+import android.graphics.Typeface
 import android.os.Bundle
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.stockmaster.R
 import com.stockmaster.fragments.AnalyticsFragment
@@ -17,7 +18,7 @@ class MainActivity : AppCompatActivity() {
     private var userRole: String = ""
     private var storeId: Int = 0
 
-    private var activeNavIndex = 1 // Default: Inventory tab
+    private var activeNavIndex = 0 // Default: Dashboard section of combined home page
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,9 +32,9 @@ class MainActivity : AppCompatActivity() {
 
         setupBottomNav()
 
-        // Load default fragment (Inventory) on first launch only
+        // Load default fragment (combined Dashboard+Inventory page) on first launch only
         if (savedInstanceState == null) {
-            loadFragment(InventoryFragment(), 1)
+            loadFragment(InventoryFragment.newInstance(openInventorySection = false), 0)
         }
     }
 
@@ -44,8 +45,24 @@ class MainActivity : AppCompatActivity() {
         val navPos = findViewById<android.widget.LinearLayout>(R.id.nav_pos)
         val navAnalytics = findViewById<android.widget.LinearLayout>(R.id.nav_analytics)
 
-        navDashboard.setOnClickListener { loadFragment(InventoryFragment(), 0) }
-        navInventory.setOnClickListener { loadFragment(InventoryFragment(), 1) }
+        navDashboard.setOnClickListener {
+            val current = supportFragmentManager.findFragmentById(R.id.fragment_container)
+            if (current is InventoryFragment) {
+                current.scrollToDashboardSection()
+                updateHomeNavHighlight(0)
+            } else {
+                loadFragment(InventoryFragment.newInstance(openInventorySection = false), 0)
+            }
+        }
+        navInventory.setOnClickListener {
+            val current = supportFragmentManager.findFragmentById(R.id.fragment_container)
+            if (current is InventoryFragment) {
+                current.scrollToInventorySection()
+                updateHomeNavHighlight(1)
+            } else {
+                loadFragment(InventoryFragment.newInstance(openInventorySection = true), 1)
+            }
+        }
         navPos.setOnClickListener { loadFragment(POSFragment(), 2) }
         navAnalytics.setOnClickListener { loadFragment(AnalyticsFragment(), 3) }
 
@@ -68,10 +85,37 @@ class MainActivity : AppCompatActivity() {
             R.id.nav_pos,
             R.id.nav_analytics
         )
+        val navLabelIds = listOf(
+            R.id.nav_dashboard_label,
+            R.id.nav_inventory_label,
+            R.id.nav_pos_label,
+            R.id.nav_analytics_label
+        )
+
         navIds.forEachIndexed { i, id ->
             val view = findViewById<android.widget.LinearLayout>(id)
-            view?.alpha = if (i == activeIndex) 1.0f else 0.5f
+            view?.alpha = if (i == activeIndex) 1.0f else 0.6f
         }
+
+        navLabelIds.forEachIndexed { i, id ->
+            val label = findViewById<android.widget.TextView>(id)
+            val isActive = i == activeIndex
+            label?.setTextColor(
+                ContextCompat.getColor(
+                    this,
+                    if (isActive) R.color.colorPrimaryDark else R.color.colorTextSecondary
+                )
+            )
+            label?.setTypeface(null, if (isActive) Typeface.BOLD else Typeface.NORMAL)
+        }
+    }
+
+    // F4 — InventoryFragment calls this while scrolling to keep Dashboard/Inventory nav state in sync.
+    fun updateHomeNavHighlight(index: Int) {
+        if (index !in 0..1) return
+        if (activeNavIndex == 2 || activeNavIndex == 3) return
+        activeNavIndex = index
+        updateNavHighlight(index)
     }
 
     fun getUserName(): String = userName

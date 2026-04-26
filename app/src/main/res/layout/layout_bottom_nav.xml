@@ -24,6 +24,7 @@
             android:contentDescription="@string/nav_dashboard" />
 
         <TextView
+            android:id="@+id/nav_dashboard_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
@@ -48,13 +49,13 @@
             android:contentDescription="@string/nav_inventory" />
 
         <TextView
+            android:id="@+id/nav_inventory_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
             android:text="@string/nav_inventory"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="10sp"
-            android:textStyle="bold" />
+            android:textColor="@color/colorTextSecondary"
+            android:textSize="10sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -73,6 +74,7 @@
             android:contentDescription="@string/nav_pos" />
 
         <TextView
+            android:id="@+id/nav_pos_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
@@ -97,6 +99,7 @@
             android:contentDescription="@string/nav_analytics" />
 
         <TextView
+            android:id="@+id/nav_analytics_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"

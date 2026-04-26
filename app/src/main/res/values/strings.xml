@@ -18,7 +18,8 @@
     <string name="filter_wearables">Wearables</string>
 
     <!-- POS -->
-    <string name="btn_draft">Draft</string>
+    <string name="btn_draft">Save Draft</string>
+    <string name="btn_draft_saved">Saved as Draft</string>
     <string name="btn_pay">Pay</string>
     <string name="btn_complete_sale">COMPLETE SALE</string>
 </resources>
