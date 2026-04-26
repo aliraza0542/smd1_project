@@ -117,21 +117,25 @@ class InventoryFragment : Fragment() {
         topProductsText = view.findViewById(R.id.tv_top_products)
 
         // F2 — Clicking item opens ItemDetailFragment, passes product via Bundle
-        adapter = InventoryAdapter(allProducts) { product ->
-            val fragment = ItemDetailFragment()
-            val bundle = Bundle().apply {
-                putParcelable("product", product)
-            }
-            fragment.arguments = bundle
+        adapter = InventoryAdapter(
+            allProducts,
+            onItemClick = { product ->
+                val fragment = ItemDetailFragment()
+                val bundle = Bundle().apply {
+                    putParcelable("product", product)
+                }
+                fragment.arguments = bundle
 
-            parentFragmentManager.beginTransaction()
-                .replace(R.id.fragment_container, fragment)
-                .addToBackStack(null)
-                .commit()
-        } { product ->
-            AddEditProductFragment.newInstance(product)
-                .show(parentFragmentManager, "edit_product")
-        }
+                parentFragmentManager.beginTransaction()
+                    .replace(R.id.fragment_container, fragment)
+                    .addToBackStack(null)
+                    .commit()
+            },
+            onItemLongClick = { product ->
+                AddEditProductFragment.newInstance(product)
+                    .show(parentFragmentManager, "edit_product")
+            }
+        )
 
         recyclerView.adapter = adapter
     }
